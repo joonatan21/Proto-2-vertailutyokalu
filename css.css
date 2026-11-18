@@ -1,1 +1,10 @@
 /*Perus CSS tänne*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
