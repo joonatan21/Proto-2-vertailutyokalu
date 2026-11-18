@@ -8,3 +8,22 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
+h1 {
+    text-align: center;
+    margin-top: 35px;
+    color: #294b35;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: #e8eee5;
+}
+nav a {
+    text-decoration: none;
+    color: #294b35;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
