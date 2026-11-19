@@ -1,11 +1,43 @@
-/*Var() värit ja fontti koot tänne*/
+/*Var() värit ja fontti koot tänne
 
+
+s = font size
+sh= size for h elements(tai tarvittaessa normi tekstille myös)
+
+vd= very dark
+d= dark
+
+ld= light dark
+vl= very light
+l= light
+
+esimerkki miten käytetään=== font-size: var(--s-1) tai color: var(--l-green)
+näitä käytetään siksi että sivulla olisi samoja värejä ja teema pysyy ja värejä voi vaihtaa kaikkia 1 rivillä.
+ja helpottaa CSS värien käyttöä
+*/
+
+
+
+:root{
 
 /*fontit*/
-
-
-
-
-
-
+    --s-1:18px;
+    --s-2:20px;
+    --s-3:24px;
+    --s-4:28px;
+    --sh-1:36px;
+    --sh-2:42px;
 /*värit*/
+    --vd-green: #0C4200;
+    --l-green: #2BEB00;
+    --vl-green:#a6ed96;
+    --green: #24C200;
+    --ld-green: #1C9900;
+    --d-green:#157000;
+    --text:black;
+    --darkbg-text:white;
+    --g:gray;
+    --l-gray:rgb(190, 190, 190);
+
+
+}
