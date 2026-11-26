@@ -36,9 +36,13 @@ nav a {
     cursor: pointer;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-
 }
 
+/* Teema napin ulkoasu tummassa teemassa */
+body.dark .themeBtn {
+    background-color: var(--vd-green);
+    color: var(--darkbg-text);
+}
 
 /* Etusivun kuvan mukauttaminen */
 .frontPhoto {
@@ -49,8 +53,3 @@ nav a {
     height: auto;
 
 }
-/*Esimerkki teema napin vaihtuvalle ulkoasulle CSS rakenne
-body.dark .themeBtn{
- background-color: var(--vd-green);
-}
-*/
