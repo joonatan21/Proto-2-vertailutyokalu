@@ -38,12 +38,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Teema napin ulkoasu tummassa teemassa */
-body.dark .themeBtn {
-    background-color: var(--vd-green);
-    color: var(--darkbg-text);
-}
-
 /* Etusivun kuvan mukauttaminen */
 .frontPhoto {
     display: block;
