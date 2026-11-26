@@ -39,9 +39,15 @@ nav a {
 
 }
 
+
 /* Etusivun kuvan mukauttaminen */
 .frontPhoto {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/*Esimerkki teema napin vaihtuvalle ulkoasulle CSS rakenne
+body.dark .themeBtn{
+ background-color: var(--vd-green);
+}
+*/
